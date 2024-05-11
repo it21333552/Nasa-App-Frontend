@@ -33,7 +33,7 @@ const SignUp = () => {
     }else{
       try {
         const response = await axios.post(
-          "http://localhost:8081/api/users/register",
+          "viaduct.proxy.rlwy.net/api/users/register",
           user
         );
         console.log(response.data); // Assuming the response contains a success message
