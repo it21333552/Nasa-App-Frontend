@@ -33,7 +33,7 @@ const SignUp = () => {
     }else{
       try {
         const response = await axios.post(
-          "https://viaduct.proxy.rlwy.net/api/users/register",
+          https://nasa-app-server-production.up.railway.app/api/users/register",
           user
         );
         console.log(response.data); // Assuming the response contains a success message
