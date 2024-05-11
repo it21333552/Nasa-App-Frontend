@@ -16,7 +16,7 @@ const Login = () => {
     e.preventDefault();
     try {
       const response = await axios.post(
-        "http://localhost:8081/api/users/login",
+        "https://viaduct.proxy.rlwy.net/api/users/login",
         user
       );
       const token = response.data.token;
